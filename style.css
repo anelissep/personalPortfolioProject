@@ -1,0 +1,74 @@
+body {
+    margin: 0px, auto;
+    font-family: Arial;
+
+}
+
+header {
+    display: flex;
+    justify-items: space-between;
+}
+
+.logo-container {
+
+    width: 100%;
+    align-content: center;
+}
+
+.logo-container p {
+    font-size: 24px;
+    margin: 1rem;
+
+    
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    align-content: center;
+
+}
+
+nav li {
+    padding: 0rem 1rem;
+    list-style: none;
+}
+
+.about {
+    display: flex;
+}
+
+.about-blurb {
+    max-width: 50%;
+}
+
+.about-img {
+    max-width: 50%;
+}
+
+.about-img img {
+    max-width: 100%;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project {
+    margin: 1rem;
+    max-width: 30%;
+}
+
+.project img {
+    max-width: 100%;
+    display: none;
+}
+
+.project h3 {
+    justify-self: center;
+}
+
+
+
